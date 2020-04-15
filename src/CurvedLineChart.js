@@ -3,8 +3,8 @@ import './App.css';
 import { select, line, curveCardinal } from 'd3';
 
 
-function App() {
-  const [data, setData] = useState([20, 200, 45, 60, 25, 80, 400, 30, 56, 86]);
+function CurvedLineChart() {
+  const [data, setData] = useState([0,20, 30, 295, 180, 60, 80, 420, 30, 56, 86]);
   const svgRef = useRef()
 
   useEffect(() => {
@@ -32,4 +32,4 @@ function App() {
   )
 }
 
-export default App;
+export default CurvedLineChart;
